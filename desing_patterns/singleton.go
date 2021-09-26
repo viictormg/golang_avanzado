@@ -32,7 +32,7 @@ func getDatabaseInstance() *DataBase {
 	return db
 }
 
-func main() {
+func main3() {
 	var wg sync.WaitGroup
 	for i := 0; i < 2; i++ {
 		wg.Add(1)
